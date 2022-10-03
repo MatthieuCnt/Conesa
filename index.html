@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
+		<script
+			src="https://kit.fontawesome.com/5f95a73160.js"
+			crossorigin="anonymous"
+		></script>
+		<link href="style/style.css" rel="stylesheet" type="text/css" />
+		<link href="style/normalizer.css" rel="stylesheet" type="text/css" />
+
+		<title>Les petits plats</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<a href="index.html">
+					<img src="assets/image/logo.svg" class="logo" alt="logo" />
+				</a>
+			</header>
+			<main>
+				<form class="search_form" id="form"></form>
+				<div class="tag" id="tag"></div>
+				<section class="filter" id="section"></section>
+				<section class="all_recipes" id="allRecipes"></section>
+			</main>
+			<!-- 
+			<script type="scripts" src="mvc/controllers.js"></script>
+			<script type="module" src="mvc/model.js"></script>
+			<script type="module" src="mvc/view.js"></script>
+			<script type="module" src="modules/recipes.json"></script>
+			<script src="scripts/functions.js"></script>
+			 -->
+		</div>
+	
+		<script type="module" src="mvc/configMVC.js"></script>
+	</body>
+</html>
